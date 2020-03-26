@@ -13,7 +13,7 @@ def print_first_directors_movie_titles
     column_index += 1
 end
 end
-# pp directors_database
+pp directors_database
 # puts print_first_directors_movie_titles
 # puts directors_database[0][:movies]
 puts directors_database[0][:movies][6][:title]
